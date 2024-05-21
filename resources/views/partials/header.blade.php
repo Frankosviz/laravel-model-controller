@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-black border-bottom" id="navbar">
+<nav class="navbar navbar-expand-sm navbar-light bg-black border-bottom fw-bold">
         <div class="container-fluid d-flex justify-content-around align-items-center">
             <a class="navbar-brand text-white {{Route::currentRouteName() == 'books' ? 'active' : ''}}" aria-current="page" href="{{route('books')}}">Libri</a>
             <a class="navbar-brand text-white {{Route::currentRouteName() == 'home' ? 'active' : ''}}" aria-current="page" href="{{route('home')}}">Homepage</a>
