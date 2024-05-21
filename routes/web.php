@@ -15,8 +15,9 @@ use App\Http\Controllers\BookController;
 |
 */
 Route::get("/", [HomeController::class,"index"])->name("home");
-Route::get('/movies', [MovieController::class, 'index'])->name('movie');
-Route::get('/books', [BookController::class, 'index'])->name('book');
+Route::get('/books', [BookController::class, 'index'])->name('books');
+Route::get('/movies', [MovieController::class, 'index'])->name('movies');
+
 
 Route::fallback(function () {
     return redirect()->route('home');
