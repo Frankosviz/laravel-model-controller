@@ -14,9 +14,29 @@ body {
     color: white;
 }
 
+.cardFD {
+    width: calc(100% / 2 - 20px);
+    height: 400px;
+    margin: 10px;
+    &:hover {
+        filter:saturate(2.5);
+        cursor: pointer;
+    }
+}
+
+.cardFDshow {
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
 .imgComics {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 300px;
     &:hover {
         filter:saturate(2.5);
         cursor: pointer;
